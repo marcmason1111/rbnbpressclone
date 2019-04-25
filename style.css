@@ -1,0 +1,149 @@
+.navbar-expand-lg {
+	background-color: white !important;
+	font-size: 16px;
+}
+
+.navbar-brand {
+	font-size: 16px;
+}
+
+.nav-item {
+	padding: 12px 16px;
+	line-height: 1.375;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+i, button {
+	color: grey;
+	background-color: white;
+	border: none;
+}
+
+.btn, .btn > a {
+	color: white !important;
+	background-color: #008489 !important;
+}
+
+.aspectRatioBox {
+	padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+	.col-md-4 {
+		border-right: none !important;
+	}
+	.col-md-3 {
+		border-right: none !important;
+	}
+	.col-md-6 {
+		border-right: none !important;
+	}
+	.container {
+		max-width: 100%;
+		object-fit: cover;
+	}
+}
+
+p {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1.3;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+p > a {
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1.3;
+	text-transform: uppercase;
+	color: #008489;
+}
+
+p > a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+h2 {
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+h2 > a {
+	color: #484848;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+h2 > a:hover {
+	color: black;
+}
+
+h3 {
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+h3 > a {
+	color: #484848;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.375;
+}
+
+h3 > a:hover {
+	color: black;
+}
+
+#description {
+	font-size: 18px;
+	line-height: 1.66667;
+	font-weight: 350;
+	text-transform: none;
+}
+
+h5 {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.text-secondary {
+	font-size: 14px;
+	font-weight: 350;
+}
+
+span {
+	font-size: 15px;
+	margin-right: 15px;
+}
+
+.social {
+	font-weight: 200;
+	font-size: 14px;
+	font-family: inherit;
+}
+
+i {
+	margin-right: 10px;
+}
+
+.disclaimer > p {
+	font-weight: 200;
+	font-size: 14px;
+	text-align: left;
+	border-top: 1px solid lightgray;
+	padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+	.disclaimer {
+		display: none;
+}
